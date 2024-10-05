@@ -1,5 +1,12 @@
-iframe {
-    position: absolute;
-    top: 22%;
-    left: 13%;
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+    left: 12%;
+    width: 100%;
+
+    iframe{
+        width: 100%;
+    }
 }
